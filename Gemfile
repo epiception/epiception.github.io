@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
+ruby "2.2.0"
 
 #current version 2.3.1
 
