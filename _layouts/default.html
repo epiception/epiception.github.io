@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>{{site.title}}</title>
+		<!-- link to main stylesheet -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./css/main_1.css">
+	</head>
+	<body>
+{% include nav.html %}
+
+{{ content }}
+
+
+		<footer>
+    		<!-- <ul>
+        		<li><a href="mailto:giyer2309@gmail.com">email</a></li>
+        		<li><a href="https://github.com/epiception">github.com/epiception</a></li>
+			</ul> -->
+			<div class="footer-social-icons">
+			    <!-- <h4 class="_14">Follow us on</h4> -->
+			    <ul class="social-icons">
+					<li><a href="mailto:{{site.email}}" class="social-icon"> <i class="fa fa-envelope"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/{{site.linkedin_username}}" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://github.com/{{site.github_username}}" class="social-icon"> <i class="fa fa-github"></i></a></li>
+			        <li><a href="https://www.youtube.com/user/giyer2309/videos?view_as=subscriber&sort=dd&view=0&shelf_id=0" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+			    </ul>
+			</div>
+		</footer>
+
+	</body>
+</html>
